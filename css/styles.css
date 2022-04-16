@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('../fonts/CascadiaCode.woff2') format('woff2'),
+        url('../fonts/CascadiaCode.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Cascadia Code';
+    font-weight: normal;
+    font-style: normal;
+    background-color: #ebeef5;
+}
+
+#logo { 
+	top:0; 
+	left:0; 
+    padding: 50px;
+} 
+
+#about {
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-right: 50px;
+}
+
+#footer {
+    bottom: 0;
+    left:0;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+h3 {
+    color: #74531f;
+}
+
+#imgs {
+    margin: auto;
+    width: 50%;
+}
+
+#header {
+    display: flex;
+}
+#social {
+    margin-left: 0; 
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+#social img{
+    vertical-align: bottom;
+    padding: 15px;
+    bottom: 0;
+    right: 0;
+}
